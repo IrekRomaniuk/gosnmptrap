@@ -27,7 +27,7 @@ func main() {
 }
 
 func HandleUdp(data []byte){
-	trap,err := ParseUdp(data)
+	trap,err := gosnmptrap.ParseUdp(data)
 	if err !=nil{
 		fmt.Println("Err",err.Error())
 	}
