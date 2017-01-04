@@ -1,9 +1,10 @@
 // example
-package gosnmptrap
+package main
 
 import (
 	"fmt"
 	"net"
+	"github.com/ebookbug/gosnmptrap"
 )
 
 func main() {
